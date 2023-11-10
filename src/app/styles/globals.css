@@ -34,7 +34,12 @@ h2 {
 	margin-right: var( --centrado_right );
 	margin-left: var( --centrado_left );
 }
-
+.menuactivo {
+	overflow: hidden;
+}
+.menuactivo #principal {
+	display: block;
+}
 
 @media ( min-width: 600px ) {
 	header {

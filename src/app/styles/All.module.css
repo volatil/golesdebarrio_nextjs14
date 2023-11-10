@@ -1,8 +1,6 @@
 /* GENERAL */
 
-body.menuactivo {
-	overflow: hidden;
-}
+
 .bloque {
 	border: 1px solid #EFEFEF;
 	border-radius: 6px;

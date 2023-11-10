@@ -15,11 +15,13 @@ export default function Nav() {
 						{
 							CLUBES.map(club => {
 								const { id , nombre } = club;
-								return (
-									<li key={id}>
-										<Link href={`/club/${nombre}`}>el dash {nombre}</Link>
-									</li>
-								)
+								if ( nombre != "sininsignia" ) {
+									return (
+										<li key={id}>
+											<Link href={`/club/${nombre}`}>el dash {nombre}</Link>
+										</li>
+									)
+								}
 							})
 						}
 					</ul>
