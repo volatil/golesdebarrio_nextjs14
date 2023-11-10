@@ -1,6 +1,18 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+// import Nav from './components/nav'
+import Nav from './components/Nav'
 
+export default function Page() {
+	return (
+		<>
+			<Nav />
+			<h1>Hello, Home page!</h1>
+		</>
+	)
+}
+
+/*
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -93,3 +105,4 @@ export default function Home() {
     </main>
   )
 }
+*/
