@@ -6,6 +6,7 @@ export default function Page({ params }) {
 		<>
 			<Nav />
 			<h1>Hello, Club Page! { params.nombre }</h1>
+			<br></br><img src={`../assets/images/clubes/${params.nombre}.jpg`} alt="Club" />
 		</>
 	)
 }

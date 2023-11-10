@@ -1,28 +1,29 @@
 import Link from 'next/link'
- 
+import { CLUBES } from '../Helpers/CONST';
 
 export default function Nav() {
 	
-	const clubes = ["estrella-central","farias","foncea"];
-	console.warn( clubes );
-
 	return (
 		<nav>
 			<ul>
 				<li>
 					<Link href="/">Inicio</Link>
 				</li>
-				{
-					clubes.map(club => {
-						return (
-							<>
-								<li>
-									<Link href={`/club/${club}`}>el dash {club}</Link>
-								</li>
-							</>
-						)
-					})
-				}
+				<li>
+					Clubes
+					<ul>
+						{
+							CLUBES.map(club => {
+								const { id , nombre } = club;
+								return (
+									<li key={id}>
+										<Link href={`/club/${nombre}`}>el dash {nombre}</Link>
+									</li>
+								)
+							})
+						}
+					</ul>
+				</li>
 			</ul>
 		</nav>
 	)
