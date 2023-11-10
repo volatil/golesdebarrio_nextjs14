@@ -1,9 +1,11 @@
 export const API = "../assets/json/20231006160722equipos.json";
 export const NOMBREPAGINA = "Goles de Barrio";
-export const CLUBES = [ { id: 1 , nombre: "unionfoncea" } , { id: 2 , nombre: "colocolofarias" } , { id: 3 , nombre: "elcobre" } , { id: 4 , nombre: "elhigueral" } , { id: 5 , nombre: "estrellacentral" } , { id: 6 , nombre: "independiente" } , { id: 7 , nombre: "lasbandurrias" } , { id: 8 , nombre: "lasgolondrinas" } , { id: 9 , nombre: "loschacayes" } , { id: 10 , nombre: "nogalestocornal" } , { id: 11 , nombre: "sanesteban" } , { id: 12 , nombre: "santaclara" } , { id: 14 , nombre: "unioncordillera" } , { id: 15 , nombre: "unionelsauce" } ];
+export const CLUBES = [ { id: 1 , nombre: "ESTRELLA CENTRAL" } , { id: 2 , nombre: "UNION CORDILLERA" } , { id: 3 , nombre: "UNION FONCEA" } , { id: 4 , nombre: "EL HIGUERAL" } , { id: 5 , nombre: "SAN ESTEBAN" } , { id: 6 , nombre: "LAS BANDURRIAS" } , { id: 7 , nombre: "SANTA CLARA" } , { id: 8 , nombre: "COLO COLO FARIAS" } , { id: 9 , nombre: "LOS CHACAYES" } , { id: 10 , nombre: "EL COBRE" } , { id: 11 , nombre: "LAS GOLONDRINAS" } , { id: 12 , nombre: "INDEPENDIENTE" } , { id: 14 , nombre: "UNION EL SAUCE" } , { id: 15 , nombre: "NOGALES TOCORNAL"} ];
 
 // DEVUELVE LA INSIGNIA
 export const insignia = function( elescudo ) {
+	const ruta = "/assets/images/optimized/clubes/";
+	
 	switch( elescudo ) {
 		case "ESTRELLA CENTRAL":
 			elescudo = "estrellacentral.webp";
@@ -51,5 +53,5 @@ export const insignia = function( elescudo ) {
 			elescudo = "sininsignia.webp";
 	}
 	
-	return elescudo;
+	return ruta + elescudo;
 };

@@ -1,3 +1,8 @@
+/*
+GENERAL
+MENU
+RESPONSIVE
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -17,6 +22,7 @@
 	color: white;
 }
 
+/* GENERAL */
 body {
 	font-family: 'Montserrat', sans-serif !important;
 	padding: 0;
@@ -34,13 +40,29 @@ h2 {
 	margin-right: var( --centrado_right );
 	margin-left: var( --centrado_left );
 }
+
+/* MENU */
 .menuactivo {
 	overflow: hidden;
 }
 .menuactivo #principal {
 	display: block;
 }
+body.menuactivo #menudesplegable > div > span {
+	position: absolute;
+	top: 8px;
+}
+body.menuactivo #menudesplegable > div > span:nth-child( 1 ) {
+	transform: rotate(45deg);
+}
+body.menuactivo #menudesplegable > div > span:nth-child( 2 ) {
+	transform: rotate(-45deg);
+}
+body.menuactivo #menudesplegable > div > span:nth-child( 3 ) {
+	display: none;
+}
 
+/* RESPONSIVE */
 @media ( min-width: 600px ) {
 	header {
 		width: 80%;

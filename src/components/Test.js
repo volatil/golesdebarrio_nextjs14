@@ -24,7 +24,7 @@ export default function Page() {
 				<option value="unionfoncea">Unión Foncea</option>
 			</select>
 			<button onClick={lainsignia}> JEJE </button>
-			<img src={`../assets/images/clubes/${insignia}.jpg`} alt="Club" />
+			<img width="20%" src={`../assets/images/clubes/${insignia}.jpg`} alt="Club" />
 		</>
 	);
 }

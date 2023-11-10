@@ -1,16 +1,17 @@
 // import Image from 'next/image'
-import Nav from './components/Nav'
-import Test from './components/Test';
-
+import Carrusel from '@/components/Carrusel';
+import Cuentaregresiva from '@/components/Cuentaregresiva';
+import Test from '@/components/Test';
 
 export default function Page() {
-	
 	return (
-		<main className="inicio">
-			<Nav />
+		<main className="inicio" style={{marginTop: "-20px"}}>
+			<Carrusel />
+			<Cuentaregresiva />
+			
+			<h1>INICIO</h1>
 			<Test />
 			
-			<h1>Hello, Home page!</h1>
 		</main>
 	)
 }

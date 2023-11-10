@@ -1,0 +1,9 @@
+.carrusel {
+	background: white;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.carrusel > img {
+	width: 100%;
+	height: auto;
+}
