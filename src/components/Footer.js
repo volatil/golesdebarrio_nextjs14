@@ -1,6 +1,7 @@
 "use client"
 
 import Link from 'next/link'
+import Suscripcion from './Suscripcion';
 import all from "../styles/All.module.css";
 
 function Footer() {
@@ -10,6 +11,7 @@ function Footer() {
 	
 	return (
 		<>
+			<Suscripcion />
 			<footer className={all.footer}>
 				<span></span>
 			</footer>

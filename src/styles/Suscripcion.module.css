@@ -1,0 +1,40 @@
+.suscribete {
+	background-color: white;
+	margin-top: 20px;
+	margin-right: var( --centrado_right );
+	margin-left: var( --centrado_left );
+}
+.suscribete > .titulo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+.suscribete > .titulo > img {
+	height: fit-content;
+}
+.suscribete > .titulo > p {
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0;
+}
+.suscribete > p {
+	margin: 0;
+}
+.suscribete > .suscribir {
+	margin-top: 20px;
+	border: 1px solid #DDDDDD;
+	border-radius: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+}
+.suscribete > .suscribir > input {
+	border: none;
+	height: 40px;
+	outline: none;
+	width: calc( 100% - 145px );
+	border-radius: 100px;
+}
