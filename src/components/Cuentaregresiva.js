@@ -28,13 +28,11 @@ function Cuentaregresiva() {
 			setBalonLeft( `${porcentaje_avanzado}%` );
 		}
 		
-		
 		const cuentaregresiva = function(){
 			const currentDate = new Date().getTime();
 			const timeLeft = TARGETDATE - currentDate;
 			if (timeLeft <= 0) {
 				clearInterval(interval);
-				// document.querySelector('.cuenta').innerHTML = 'En curso';
 				setlacuentaregresiva( "En curso" )
 				setcargando()
 			} else {
@@ -49,7 +47,6 @@ function Cuentaregresiva() {
 				
 			}
 		}
-		
 		
 		const interval = setInterval(() => {
 			cuentaregresiva();
