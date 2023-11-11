@@ -1,3 +1,4 @@
+/* INICIO */
 .carrusel {
 	background: white;
 	padding-top: 20px;
@@ -7,3 +8,158 @@
 	width: 100%;
 	height: auto;
 }
+
+
+main.inicio > .cuentaregresiva {
+	margin-right: var( --centrado_right );
+	margin-left: var( --centrado_left );
+	background-color: white;
+}
+main.inicio > .cuentaregresiva .titulo {
+	font-size: 0.9em;
+	margin: 0;
+}
+main.inicio > .cuentaregresiva > .cuenta {
+	font-size: 1.8em;
+	font-weight: 700;
+	line-height: 1em;
+	margin: 10px 0 20px;
+}
+main.inicio > .cuentaregresiva > span.rayita {
+	margin-bottom: 4px;
+	background: #ddd;
+	width: 100%;
+	height: 1px;
+	display: block;
+	margin-top: 10px;
+}
+main.inicio > .cuentaregresiva > .fechas {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0 20px;
+}
+main.inicio > .cuentaregresiva > .fechas > .encuentropasado ,
+main.inicio > .cuentaregresiva > .fechas > .encuentroproximo {
+	margin: 0;
+	font-size: 0.8em;
+}
+main.inicio > .cuentaregresiva > .barraprogreso {
+	margin-top: 15px;
+	position: relative;
+	margin-bottom: 10px;
+}
+main.inicio > .cuentaregresiva > .barraprogreso > .progreso {
+	background: #AAA;
+	width: 100%;
+	height: 2px;
+}
+main.inicio > .cuentaregresiva > .barraprogreso > .progreso > span {
+	width: 0%;
+	display: block;
+	background: var( --verde );
+	height: 100%;
+	left: 0;
+}
+main.inicio > .cuentaregresiva > .barraprogreso > img {
+	position: absolute;
+	top: -10px;
+	left: 0%;
+}
+
+
+
+main.inicio > .proximosencuentros {
+	margin-top: 20px;
+	margin-right: var( --centrado_right );
+	margin-left: var( --centrado_left );
+	background-color: white;
+}
+main.inicio > .proximosencuentros .encuentros > .titulo {
+	font-weight: 500;
+	font-size: 1.1em;
+	margin-bottom: 0;
+	width: 100%;
+	display: block;
+}
+main.inicio > .proximosencuentros .encuentros > .fecha {
+	font-size: 0.8em;
+	margin: 0 0 10px 0;
+	display: block;
+}
+main.inicio > .proximosencuentros .encuentros > .encuentro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 35px;
+}
+main.inicio > .proximosencuentros .encuentros .encuentro > p {
+	text-transform: capitalize;
+}
+main.inicio > .proximosencuentros .encuentros .encuentro > p.equipo {
+	font-size: .8em;
+	width: 44%;
+	margin: 0;
+}
+main.inicio > .proximosencuentros .encuentros .encuentro > p.equipo.izquierda {
+	text-align: right;
+}
+main.inicio > .proximosencuentros .encuentros .encuentro > p.vs {
+	margin: 0 5px;
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+}
+main.inicio > .proximosencuentros .encuentros .encuentro > p > img {
+	max-width: 20px;
+}
+@media ( min-width: 600px ) {
+	main.inicio > .carrusel {
+		display: none;
+	}
+	main.inicio > .cuentaregresiva > .titulo {
+		font-size: 1.3em;
+	}
+	main.inicio > .cuentaregresiva > .cuenta {
+		font-size: 2.2em;
+	}
+	main.inicio > .cuentaregresiva > span.rayita {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	main.inicio > .cuentaregresiva > .fechas > .encuentropasado ,
+	main.inicio > .cuentaregresiva > .fechas > .encuentroproximo {
+		font-size: 1.3em;
+	}
+	main.inicio > .cuentaregresiva > .barraprogreso > .progreso {
+		height: 6px;
+	}
+	main.inicio > .cuentaregresiva > .barraprogreso > img {
+		width: 30px;
+	}
+	main.inicio > .proximosencuentros .encuentros > .titulo {
+		font-size: 1.6em;
+	}
+	main.inicio > .proximosencuentros .encuentros > .fecha {
+		font-size: 1.4em;
+		margin-bottom: 40px;
+	}
+	main.inicio > .proximosencuentros .encuentros > .encuentro {
+		height: auto;
+		margin-bottom: 20px;
+	}
+	main.inicio > .proximosencuentros .encuentros .encuentro > p {
+		font-size: 1.5em;
+	}
+	main.inicio > .proximosencuentros .encuentros .encuentro > p.equipo {
+		font-size: 1.3em;
+	}
+	main.inicio > .proximosencuentros .encuentros .encuentro > p.vs {
+		margin: 0 10px
+	}
+	main.inicio > .proximosencuentros .encuentros .encuentro > p.vs > img {
+		width: 30%;
+		height: auto;
+		max-width: none;
+	}
+}
+/* /INICIO */

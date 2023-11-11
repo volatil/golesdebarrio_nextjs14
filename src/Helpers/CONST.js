@@ -1,4 +1,23 @@
-export const API = "../assets/json/20231006160722equipos.json";
+// export const API = "../assets/json/20231006160722equipos.json";
+export const API = {
+	tabla: {
+		primera: `/assets/json/20231006160722tabla-primera.json` ,
+		segunda: `/assets/json/20231006160722tabla-segunda.json` ,
+		tercera: `/assets/json/20231006160722tabla-tercera.json` ,
+		senior: `/assets/json/20231006160722tabla-senior.json` ,
+	} ,
+	resultados: {
+		primera: `/assets/json/20231006160722resultados-primera.json` ,
+		segunda: `/assets/json/20231006160722resultados-segunda.json` ,
+		tercera: `/assets/json/20231006160722resultados-tercera.json` ,
+		senior: `/assets/json/20231006160722resultados-senior.json` ,
+	} ,
+	fixture: `/assets/json/20231006160722fixture.json` ,
+	equipos: `/assets/json/20231006160722equipos.json` ,
+}
+
+
+
 export const NOMBREPAGINA = "Goles de Barrio";
 export const CLUBES = [ { id: 1 , nombre: "ESTRELLA CENTRAL" } , { id: 2 , nombre: "UNION CORDILLERA" } , { id: 3 , nombre: "UNION FONCEA" } , { id: 4 , nombre: "EL HIGUERAL" } , { id: 5 , nombre: "SAN ESTEBAN" } , { id: 6 , nombre: "LAS BANDURRIAS" } , { id: 7 , nombre: "SANTA CLARA" } , { id: 8 , nombre: "COLO COLO FARIAS" } , { id: 9 , nombre: "LOS CHACAYES" } , { id: 10 , nombre: "EL COBRE" } , { id: 11 , nombre: "LAS GOLONDRINAS" } , { id: 12 , nombre: "INDEPENDIENTE" } , { id: 14 , nombre: "UNION EL SAUCE" } , { id: 15 , nombre: "NOGALES TOCORNAL"} ];
 
@@ -54,4 +73,11 @@ export const insignia = function( elescudo ) {
 	}
 	
 	return ruta + elescudo;
+};
+
+// FETCH
+export const elfetchData = async url => {
+	const response = await fetch(url);
+	if (!response.ok) throw new Error('La solicitud no se pudo completar.');
+	return await response.json();
 };

@@ -40,6 +40,10 @@ h2 {
 	margin-right: var( --centrado_right );
 	margin-left: var( --centrado_left );
 }
+span ,
+p {
+	font-weight: 300;
+}
 
 /* MENU */
 .menuactivo {
