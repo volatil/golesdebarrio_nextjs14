@@ -1,0 +1,16 @@
+.auspiciadores > .losauspiciadores {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	gap: 11%;
+	flex-wrap: wrap;
+	margin-right: var( --centrado_right );
+	margin-left: var( --centrado_left );
+}
+.auspiciadores > .losauspiciadores > .auspiciador {
+	width: 42%;
+	margin-bottom: 10px;
+}
+.auspiciadores > .losauspiciadores > .auspiciador > img {
+	width: 100%;
+}
