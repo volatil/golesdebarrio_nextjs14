@@ -2,7 +2,7 @@ export class Metadata {
 	static NOMBRE = "Goles de Barrio";
 	static DESCRIPTION = "Todos los resultados, posiciones y más";
 	static URL = "https://golesdebarrio.cl/";
-	static IMAGE = "../assets/images/optimized/metadata/1200x1200.jpg"
+	static IMAGE = "/assets/images/optimized/metadata/1200x1200.jpg"
 
 	constructor({ nombre }) {
 		this.nombre = nombre;

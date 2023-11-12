@@ -1,0 +1,56 @@
+.clubespecifico {
+	margin-right: var( --centrado_right );
+	margin-left: var( --centrado_left );
+	background-color: white;
+}
+.clubespecifico > .volver {
+	display: inline-block;
+}
+.clubespecifico > .volver > a {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 5px;
+}
+.clubespecifico > .volver > a > img {
+	width: 20px;
+}
+.clubespecifico > .volver > a > p {
+	margin: 0;
+}
+.clubespecifico > .nombreclub {}
+.clubespecifico > .nombreclub > h2 {
+	display: flex;
+	align-items: center;
+	font-weight: 800;
+	line-height: 1em;
+	font-size: 1.4em;
+	gap: 10px;
+	margin: 0;
+	justify-content: center;
+}
+.clubespecifico > .nombreclub > h2 > img {
+	width: 50px;
+}
+.clubespecifico > .redes {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.clubespecifico > .redes > a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.clubespecifico > .redes > a:hover {
+	opacity: .8;
+}
+.clubespecifico > .redes > a > img {}
+.clubespecifico > .redes > a > p {
+	margin: 0;
+	font-size: 0.8em;
+}

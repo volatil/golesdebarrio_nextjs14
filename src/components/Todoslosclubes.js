@@ -9,7 +9,7 @@ export default function Nav() {
 					const { id , nombre } = club;
 					return (
 						<div key={id}>
-							<Link href={`/clubes/${nombre}`}>
+							<Link href={`/clubes/${String(nombre).toLowerCase().replaceAll(" ", "-")}`}>
 								<img width="50px" src={ insignia( nombre ) } alt={ nombre } />
 								<p>{nombre}</p>
 							</Link>
