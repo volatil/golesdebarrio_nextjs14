@@ -55,7 +55,7 @@ function ClubRedes( params ) {
 							{
 								x.maps && 
 								(
-									<a href={ x.maps } title="Maps">
+									<a target="_blank" href={ x.maps } title="Maps">
 										<img src="../assets/images/optimized/clubes/redes/maps.jpg" alt="Maps" />
 										<p>Maps</p>
 									</a>
