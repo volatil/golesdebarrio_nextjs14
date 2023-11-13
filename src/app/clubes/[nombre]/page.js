@@ -77,7 +77,7 @@ export default function Page({ params }) {
 		<section id="clubespecifico" className={`${all.bloque} ${especifico.clubespecifico}`}>
 			<Volver />
 			<Titulo nombre={ nombrefix } />
-			<ClubRedes />
+			<ClubRedes nombredelclub={ nombrefix } />
 		</section>
 	)
 }
