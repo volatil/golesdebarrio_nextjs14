@@ -1,0 +1,69 @@
+
+/* CLUBES */
+.clubes > h2 {
+	margin-right: var( --centrado_right );
+	margin-left: var( --centrado_left );
+}
+.clubes > .elbuscadordeclubs {
+	margin-right: var( --centrado_right );
+	margin-left: var( --centrado_left );
+	position: relative;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.clubes > .elbuscadordeclubs > input {
+	background: var( --grisClaro );
+	border: none;
+	height: 100%;
+	width: 100%;
+	padding-left: 10px;
+	outline: none;
+	border-radius: 6px;
+}
+.clubes > .elbuscadordeclubs > input::placeholder {
+	color: black;
+}
+.clubes > .elbuscadordeclubs > img {
+	position: absolute;
+	right: 10px;
+	width: 18px;
+}
+.clubes > .losclubes {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 40px 0px;
+	margin-top: 20px;
+	padding: 20px 10px;
+	margin-right: var( --centrado_right );
+	margin-left: var( --centrado_left );
+}
+.clubes > .losclubes > .club {
+	width: 33%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 10px;
+}
+.clubes > .losclubes > .club > img {
+	width: 80%;
+}
+@media ( min-width: 600px ) {
+	.clubes > .losclubes > .club {
+		width: 16%;
+		cursor: pointer;
+	}
+	.clubes > .losclubes > .club > p {
+		font-size: 1.2em;
+	}
+	.clubes > .modal-clubes-contenido {
+		left: 0;
+		right: 0;
+	}
+}
+/* /CLUBES */
