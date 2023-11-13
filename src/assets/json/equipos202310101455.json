@@ -1,0 +1,94 @@
+{
+  "range": "'Nombre equipos'!A1:Z1000",
+  "majorDimension": "ROWS",
+  "values": [
+    [],
+    [
+      "",
+      "Nombre equipos"
+    ],
+    [
+      "",
+      "LAS GOLONDRINAS"
+    ],
+    [
+      "",
+      "EL COBRE"
+    ],
+    [
+      "",
+      "LOS CHACAYES"
+    ],
+    [
+      "",
+      "UNION EL SAUCE"
+    ],
+    [
+      "",
+      "NOGALES TOCORNAL"
+    ],
+    [
+      "",
+      "SANTA CLARA"
+    ],
+    [
+      "",
+      "SAN ESTEBAN"
+    ],
+    [
+      "",
+      "UNION CORDILLERA"
+    ],
+    [
+      "",
+      "LAS BANDURRIAS"
+    ],
+    [
+      "",
+      "ESTRELLA CENTRAL",
+      "https://www.instagram.com/cdestrellacentral/"
+    ],
+    [
+      "",
+      "INDEPENDIENTE"
+    ],
+    [
+      "",
+      "EL HIGUERAL",
+      "https://www.instagram.com/club_deportivo_elhigueral/"
+    ],
+    [
+      "",
+      "COLO COLO FARIAS"
+    ],
+    [
+      "",
+      "UNION FONCEA",
+      "https://www.instagram.com/ladelbarrio_uf/"
+    ],
+    [
+      "",
+      "A"
+    ],
+    [
+      "",
+      "B"
+    ],
+    [
+      "",
+      "C"
+    ],
+    [
+      "",
+      "D"
+    ],
+    [
+      "",
+      "E"
+    ],
+    [
+      "",
+      "F"
+    ]
+  ]
+}

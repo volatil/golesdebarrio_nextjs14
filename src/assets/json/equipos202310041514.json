@@ -1,0 +1,91 @@
+{
+  "range": "'Nombre equipos'!A1:Z1000",
+  "majorDimension": "ROWS",
+  "values": [
+    [],
+    [
+      "",
+      "Nombre equipos"
+    ],
+    [
+      "",
+      "LAS GOLONDRINAS"
+    ],
+    [
+      "",
+      "EL COBRE"
+    ],
+    [
+      "",
+      "LOS CHACAYES"
+    ],
+    [
+      "",
+      "UNION EL SAUCE"
+    ],
+    [
+      "",
+      "NOGALES TOCORNAL"
+    ],
+    [
+      "",
+      "SANTA CLARA"
+    ],
+    [
+      "",
+      "SAN ESTEBAN"
+    ],
+    [
+      "",
+      "UNION CORDILLERA"
+    ],
+    [
+      "",
+      "LAS BANDURRIAS"
+    ],
+    [
+      "",
+      "ESTRELLA CENTRAL"
+    ],
+    [
+      "",
+      "INDEPENDIENTE"
+    ],
+    [
+      "",
+      "EL HIGUERAL"
+    ],
+    [
+      "",
+      "COLO COLO FARIAS"
+    ],
+    [
+      "",
+      "UNION FONCEA"
+    ],
+    [
+      "",
+      "A"
+    ],
+    [
+      "",
+      "B"
+    ],
+    [
+      "",
+      "C"
+    ],
+    [
+      "",
+      "D"
+    ],
+    [
+      "",
+      "E"
+    ],
+    [
+      "",
+      "F"
+    ]
+  ]
+}

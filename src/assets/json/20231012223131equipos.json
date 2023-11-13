@@ -1,0 +1,112 @@
+{
+  "range": "'Nombre equipos'!A1:Z1000",
+  "majorDimension": "ROWS",
+  "values": [
+    [],
+    [
+      "",
+      "Nombre equipos",
+      "rrss",
+      "maps"
+    ],
+    [
+      "",
+      "LAS GOLONDRINAS"
+    ],
+    [
+      "",
+      "EL COBRE",
+      "",
+      "https://maps.app.goo.gl/T4PNfut1yVMYo6zh8"
+    ],
+    [
+      "",
+      "LOS CHACAYES",
+      "",
+      "https://maps.app.goo.gl/rEq8nC9GcrxwowwN9"
+    ],
+    [
+      "",
+      "UNION EL SAUCE",
+      "",
+      "https://maps.app.goo.gl/kXUKFjrM44XsgEyu5"
+    ],
+    [
+      "",
+      "NOGALES TOCORNAL"
+    ],
+    [
+      "",
+      "SANTA CLARA",
+      "",
+      "https://maps.app.goo.gl/r81YJPmu9X4Leyqq5"
+    ],
+    [
+      "",
+      "SAN ESTEBAN"
+    ],
+    [
+      "",
+      "UNION CORDILLERA",
+      "",
+      "https://maps.app.goo.gl/tXQvxgLhSWsMVY7o6"
+    ],
+    [
+      "",
+      "LAS BANDURRIAS",
+      "",
+      "https://www.google.com/maps/place/Cancha+Las+Bandurrias/@-32.7485842,-70.5925466,18.75z/data=!4m6!3m5!1s0x96880fc4467f4a7d:0x5accba701dbce20a!8m2!3d-32.74877!4d-70.5923674!16s%2Fg%2F11h2097md1?hl=es-CL&entry=ttu"
+    ],
+    [
+      "",
+      "ESTRELLA CENTRAL",
+      "https://www.instagram.com/cdestrellacentral/",
+      "https://maps.app.goo.gl/9dFQsHQkZmqVJF4t9"
+    ],
+    [
+      "",
+      "INDEPENDIENTE"
+    ],
+    [
+      "",
+      "EL HIGUERAL",
+      "https://www.instagram.com/club_deportivo_elhigueral/",
+      "https://maps.app.goo.gl/piTMa1S4EbfcGfSN6"
+    ],
+    [
+      "",
+      "COLO COLO FARIAS",
+      "",
+      "https://maps.app.goo.gl/x8wZF7aWFBWmKdP78"
+    ],
+    [
+      "",
+      "UNION FONCEA",
+      "https://www.instagram.com/ladelbarrio_uf/"
+    ],
+    [
+      "",
+      "A"
+    ],
+    [
+      "",
+      "B"
+    ],
+    [
+      "",
+      "C"
+    ],
+    [
+      "",
+      "D"
+    ],
+    [
+      "",
+      "E"
+    ],
+    [
+      "",
+      "F"
+    ]
+  ]
+}

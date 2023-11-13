@@ -1,12 +1,35 @@
-// import { useEffect , useState } from "react";
-// import { API , insignia , elfetchData } from "@/Helpers/CONST";
-// import Loading from "./Loading";
+"use client"
+
+import { useEffect , useState } from "react";
+import { API , insignia , elfetchData } from "@/Helpers/CONST";
+import Loading from "./Loading";
 import especifico from "@/styles/ClubEspecifico.module.css";
 
 function ClubRedes() {
+	// const [fetch, setfetch] = useState("cargando");
+	// const FETCH_API = "@/assets/json/20231006160722equipos.json";
+	const [data, setData] = useState(null);
 	
-	{/*
 	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const response = await fetch(API.equipos); // La ruta relativa al archivo en la carpeta public
+				const jsonData = await response.json();
+				setData(jsonData);
+				console.warn( jsonData );
+			} catch (error) {
+				console.error('Error al cargar el archivo JSON:', error);
+			}
+		};
+		fetchData();
+		
+		{/*
+		elfetchData( FETCH_API ).then((x) => {
+			console.warn( `entre` );
+			console.warn( x );
+		})
+		*/}
+		{/*
 		elfetchData(API.fixture).then(x => {
 			setfechaActualEnJuego( x.values[0] );
 			
@@ -35,9 +58,23 @@ function ClubRedes() {
 			// Imprime el html
 			sethtmlproximosencuentros( elhtml );
 		})
+		*/}
 	}, []);
-	*/}
 
+	if (!data) {
+		return <Loading />;
+	}
+
+	return (
+		<div>
+			<h1>LISTO ! ✅</h1>
+			{/* <h1>{data.title}</h1>
+			<p>{data.description}</p> */}
+			{/* Agrega el resto de tu lógica aquí */}
+		</div>
+	);
+	
+	{/*
 	return (
 		<div className={ especifico.redes }>
 			<a href="#Instagram" title="Instagram">
@@ -54,5 +91,6 @@ function ClubRedes() {
 			</a>
 		</div>
 	);
+	*/}
 }
 export default ClubRedes;

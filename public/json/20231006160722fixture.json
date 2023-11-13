@@ -1,0 +1,37 @@
+{
+  "range": "'12112023'!A1:Z999",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "22"
+    ],
+    [
+      "UNION FONCEA",
+      "ESTRELLA CENTRAL"
+    ],
+    [
+      "EL COBRE",
+      "UNION CORDILLERA"
+    ],
+    [
+      "COLO COLO FARIAS",
+      "LOS CHACAYES"
+    ],
+    [
+      "INDEPENDIENTE",
+      "NOGALES TOCORNAL"
+    ],
+    [
+      "LAS BANDURRIAS",
+      "SAN ESTEBAN"
+    ],
+    [
+      "UNION EL SAUCE",
+      "EL HIGUERAL"
+    ],
+    [
+      "LAS GOLONDRINAS",
+      "SANTA CLARA"
+    ]
+  ]
+}

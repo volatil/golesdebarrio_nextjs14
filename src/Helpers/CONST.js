@@ -19,19 +19,19 @@ export class Metadata {
 
 export const API = {
 	tabla: {
-		primera: `/assets/json/20231006160722tabla-primera.json` ,
-		segunda: `/assets/json/20231006160722tabla-segunda.json` ,
-		tercera: `/assets/json/20231006160722tabla-tercera.json` ,
-		senior: `/assets/json/20231006160722tabla-senior.json` ,
+		primera: `/json/20231012223703tabla-primera.json` ,
+		segunda: `/json/20231012223703tabla-segunda.json` ,
+		tercera: `/json/20231012223703tabla-tercera.json` ,
+		senior: `/json/20231012223703tabla-senior.json` ,
 	} ,
 	resultados: {
-		primera: `/assets/json/20231006160722resultados-primera.json` ,
-		segunda: `/assets/json/20231006160722resultados-segunda.json` ,
-		tercera: `/assets/json/20231006160722resultados-tercera.json` ,
-		senior: `/assets/json/20231006160722resultados-senior.json` ,
+		primera: `/json/20231012223703resultados-primera.json` ,
+		segunda: `/json/20231012223703resultados-segunda.json` ,
+		tercera: `/json/20231012223703resultados-tercera.json` ,
+		senior: `/json/20231012223703resultados-senior.json` ,
 	} ,
-	fixture: `/assets/json/20231006160722fixture.json` ,
-	equipos: `/assets/json/20231006160722equipos.json` ,
+	fixture: `/json/20231012223703fixture.json` ,
+	equipos: `/json/20231012223703equipos.json` ,
 }
 
 export const NOMBREPAGINA = "Goles de Barrio";
