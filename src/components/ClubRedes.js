@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect , useState } from "react";
-import { API , insignia , elfetchData } from "@/Helpers/CONST";
+import { API , elfetchData } from "@/Helpers/CONST";
 import Loading from "./Loading";
 import especifico from "@/styles/ClubEspecifico.module.css";
 
