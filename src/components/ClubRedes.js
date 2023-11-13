@@ -12,35 +12,25 @@ function ClubRedes( params ) {
 	const [dataredes, setdataredes] = useState();
 	
 	useEffect(() => {
-		const fetchData = async () => {
-			try {
-				const response = await fetch(API.equipos);
-				const jsonData = await response.json();
-
-				// state para el loading
-				setData(jsonData);
-				console.warn( jsonData );
-				
-				// array de datos
-				const elArr = [];
-				for ( let count = 2; count <= jsonData.values.length-7; count++ ) {
-					const data = {
-						id: 1 ,
-						club: jsonData.values[count][ 1 ] ,
-						instagram: jsonData.values[count][ 2 ] ,
-						maps: jsonData.values[count][ 3 ] ,
-					}
-					if ( data.club == NOMBREDELCLUB ) {
-						elArr.push( data );
-					}
+		elfetchData( API.equipos ).then( x => {
+			// state para el loading
+			setData( x );
+			
+			// array de datos
+			const elArr = [];
+			for ( let count = 2; count <= x.values.length-7; count++ ) {
+				const data = {
+					id: 1 ,
+					club: x.values[count][ 1 ] ,
+					instagram: x.values[count][ 2 ] ,
+					maps: x.values[count][ 3 ] ,
 				}
-				console.warn( elArr );
-				setdataredes( elArr )
-			} catch (error) {
-				console.error('Error al cargar el archivo JSON:', error);
+				if ( data.club == NOMBREDELCLUB ) {
+					elArr.push( data );
+				}
 			}
-		};
-		fetchData();
+			setdataredes( elArr )
+		});
 	}, []);
 
 	if (!data) {
