@@ -113,9 +113,9 @@ main.inicio > .proximosencuentros .encuentros .encuentro > p > img {
 	max-width: 20px;
 }
 @media ( min-width: 600px ) {
-	main.inicio > .carrusel {
+	/* main.inicio > .carrusel {
 		display: none;
-	}
+	} */
 	main.inicio > .cuentaregresiva > .titulo {
 		font-size: 1.3em;
 	}
